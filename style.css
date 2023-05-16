@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: url(../images/background.jpg);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    background-color: rgb(245, 201, 119);
+}
+.nav-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-logo h1{
+    font-weight: 200;
+    color: white;
+    font-size: 2rem;
+}
+.nav-details{
+    display: flex;
+    margin-right: 1rem;
+    margin: auto 0;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+
+}
+.nav-details ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.nav-details ul li{
+    padding: .5rem;
+    cursor: pointer;
+}
+.nav-details ul li a{
+    text-decoration: none;
+    color: black;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    width: 20%;
+}
+.btn{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 2.5rem;
+    background: orange;
+    color: white;
+    width: 7rem;
+    padding: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.take-action{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 2.5rem;
+    background: orange;
+    width: 7rem;
+    padding: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.take-action a{
+    text-decoration: none;
+    color: white  ; 
+
+}
+.description{
+    display: flex;
+    margin: 4rem;
+    height: 70vh;
+    width: 80%;
+}
+.desc{
+    width: 100%;
+}
+.description h1{
+    font-size: 6rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    color: orange;
+    font-weight: 900;
+}
+.description p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    display: flex;
+    justify-content: flex-start;
+    align-items: column;
+    color: black;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.elephant{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.elephant img{
+    width: 80%;
+    height: 70%;
+}
