@@ -5,6 +5,7 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     background: url(../images/background.jpg);
+    height: 100vh;
 }
 .nav{
     display: flex;
@@ -117,6 +118,7 @@ body{
 .data{
     height: 50vh;
 }
+
 .take-action{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1rem;
@@ -179,4 +181,39 @@ body{
     color: black;
     margin-left: 1rem;
     margin-bottom:9rem;
+}
+.card {
+    width: 100rem;
+    height: 30rem;
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 15rem;
+
+}
+.card-rhino{
+    width: 40rem;
+}
+
+.card-rhino img{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.card-desc {
+    height: 30%;
+   
+}
+.card-desc p{
+    color: #fff;
+    text-align: center;
+    width: 50%; 
+    font-size: 1.1rem;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-around;
 }
